@@ -3,13 +3,13 @@
 ### RFs (Requisitos funcionais)
 
 - [x] Dever ser possível se cadastrar;
-- [ ] Dever ser possível se autenticar;
-- [ ] Dever ser possível obter o perfil de um usuário logado;
+- [x] Dever ser possível se autenticar;
+- [x] Dever ser possível obter o perfil de um usuário logado;
 - [ ] Dever ser possível obter o número de check-ins pelo usuário logado;
 - [ ] Dever ser possível o usuário obter seu histórico de check-ins;
 - [ ] Dever ser possível o usuário buscar academias próximas;
 - [ ] Dever ser possível o usuário buscar academias pelo nome;
-- [ ] Dever ser possível o usuário realizar check-in em uma academia;
+- [x] Dever ser possível o usuário realizar check-in em uma academia;
 - [ ] Dever ser possível validar o check-in de um usuário;
 - [ ] Dever ser possível cadastrar uma academia;
 
