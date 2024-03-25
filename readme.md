@@ -7,7 +7,7 @@
 - [x] Dever ser possível obter o perfil de um usuário logado;
 - [x] Dever ser possível obter o número de check-ins pelo usuário logado;
 - [x] Dever ser possível o usuário obter seu histórico de check-ins;
-- [ ] Dever ser possível o usuário buscar academias próximas;
+- [x] Dever ser possível o usuário buscar academias próximas (até 10km);
 - [x] Dever ser possível o usuário buscar academias pelo nome;
 - [x] Dever ser possível o usuário realizar check-in em uma academia;
 - [ ] Dever ser possível validar o check-in de um usuário;
