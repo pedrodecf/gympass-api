@@ -1,4 +1,58 @@
-# 💪 GymPass Style App
+# 💪 GymPass API 
+1. Clone este repositório em sua máquina local:
+```bash
+git clone https://github.com/pedrodecf/gympass-api
+```
+
+2. Instale as dependências necessárias:
+```bash
+npm install
+```
+
+3. Crie um arquivo ```.env``` no diretório do projeto para definir as variáveis de ambiente necessárias, consulte o arquivo ```.env.example``` fornecido para obter as variáveis necessárias e seus valores.
+
+4. Configure o contêiner do banco de dados usando o Docker Compose:
+```bash
+docker compose up -d
+```
+
+5. Execute as migrations do Prisma para criar as tabelas do banco de dados:
+```bash
+npx prisma migrate dev
+```
+
+6. Inicie a API:
+```bash
+npm run start:dev
+```
+
+---
+
+### Como fazer testes na API
+1. Execute os testes unitários:
+```bash
+npm run test
+```
+
+ou
+
+```bash
+npm run test:watch
+```
+2. Execute os testes E2E: 
+```bash
+npm run test:e2e
+```
+
+ou
+
+```bash
+npm run test:e2e:watch
+```
+
+Este script acionará toda a configuração em um novo banco de dados que será gerado para executar os testes, sendo excluído após a conclusão dos testes e2e.
+
+---
 
 ### RFs (Requisitos funcionais)
 
